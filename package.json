@@ -1,0 +1,36 @@
+{
+    "name": "colorui-vue-doc",
+    "version": "0.0.1",
+    "description": "ColorUI3.x - vue3",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "serve": "vite preview",
+        "link": "yarn link colorui-vue",
+        "unlink": "yarn unlink colorui-vue"
+    },
+    "dependencies": {
+        "unlink": "^0.0.2",
+        "vue": "^3.1.4",
+        "vue-router": "^4.0.10",
+        "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^16.3.2",
+        "@vitejs/plugin-vue": "^1.2.5",
+        "@vue/compiler-sfc": "^3.0.5",
+        "debug": "^4.3.3",
+        "sass": "^1.35.2",
+        "typescript": "^4.3.2",
+        "vite": "^2.5.2",
+        "vite-plugin-vuedoc": "^3.1.3",
+        "vue-tsc": "^0.2.1"
+    },
+    "license": "MIT",
+    "author": "ZaiZai And ColorUI-Team (https://github.com/Color-UI)",
+    "homepage": "https://github.com/Color-UI/colorui-vue-doc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Color-UI/colorui-vue-doc"
+    }
+}

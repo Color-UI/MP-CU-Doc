@@ -1,0 +1,92 @@
+@import './icon/docs';
+
+html, body, #app {
+    //overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsla(0,0%,44.3%,.06);
+    border-radius: 12px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.cu-layout-view.cu-layout.cu-layout-side-fixed {
+    padding-left: 260px;
+}
+
+.cu-docs-view {
+    position: relative;
+    padding: 20px 300px 32px 36px;
+    background-color: #ffffff;
+    .cicon-title {
+        position: relative;
+        top: 1px;
+    }
+}
+
+/**代码展示容器**/
+.ui-code-box {
+    position: relative;
+    transition: all .2s;
+    border: 1px solid #ebedf0;
+    .ui-code-box-preview {
+        padding: 22px;
+        border-bottom: 1px dashed #ebedf0;
+    }
+    .ui-code-box-actions {
+        text-align: center;
+        padding: 12px 22px;
+        &.show {
+            border-bottom: 1px dashed #ebedf0;
+        }
+        span {
+            transition: .2s;
+            cursor: pointer;
+            user-select: none;
+            &:hover {
+                color: var(--ui-BG-Main);
+            }
+            &.show {
+                color: var(--ui-BG-Main);
+            }
+        }
+        span + span {
+            margin-left: 18px;
+        }
+    }
+    .ui-code-box-code {
+        display: none;
+        &.show {
+            display: block;
+        }
+        .meta-view {
+            padding: 8px;
+            font-size: 14px;
+            background: var(--ui-BG-1);
+            .meta-box {
+                background: var(--ui-BG);
+                color: var(--ui-TC-1);
+                padding: 18px
+            }
+        }
+        .code-view {
+            display: none;
+            &.show {
+                display: block;
+            }
+            .ui-code pre.vue {
+                padding: 20px 24px;
+            }
+        }
+    }
+}
