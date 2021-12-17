@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/MP-CU-Doc/',
     lang: 'zh-CN',
     title: 'MP-CU-Doc',
     description: 'MP-CU文档，ColorUI 微信原生小程序UI组件库',
