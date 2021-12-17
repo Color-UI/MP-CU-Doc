@@ -1,0 +1,17 @@
+{
+    "name": "MP-CU-Doc",
+    "version": "1.0.0",
+    "description": "MP-CU 文档，colorUI3.x原生小程序框架的文档",
+    "repository": "https://github.com/Color-UI/MP-CU-Doc.git",
+    "author": "iZaiZaiA <806606688@qq.com>",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "docs:dev": "vuepress dev docs --watch",
+        "docs:build": "vuepress build docs"
+    },
+    "devDependencies": {
+        "@vuepress/plugin-search": "^2.0.0-beta.27",
+        "vuepress": "^2.0.0-beta.27"
+    }
+}

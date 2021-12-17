@@ -1,0 +1,12 @@
+:root {
+    --c-brand: #0081ff;
+    --c-brand-light: #0081ff;
+    .home .hero .action-button {
+        font-size: 1.1rem;
+        padding: .4rem 1.2rem;
+    }
+}
+html.dark {
+    --c-brand: #0081ff;
+    --c-brand-light: #0081ff;
+}
