@@ -115,20 +115,20 @@
 
 `.bg-mask-{opacity}` 占用after伪元素的遮罩层
 
-![mp-cu](/images/background1.png)
+![mp-cu](/images/background/background1.png)
 
 
 ## 背景图片
 
 `.bg-img` 自适应背景图片
 
-![mp-cu](/images/background2.png)
+![mp-cu](/images/background/background2.png)
 
 ## 模糊背景
 
 `.bg-blur` 高斯模糊背景。 (存在兼容性！ios设备和安卓10以上才支持。)
 
-![mp-cu](/images/background3.png)
+![mp-cu](/images/background/background3.png)
 
 
 <script setup>

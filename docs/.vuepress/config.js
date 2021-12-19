@@ -73,6 +73,9 @@ module.exports = {
                     children: [
                         '/component/README.md',
                         '/component/theme.md',
+                        '/component/navbar.md',
+                        '/component/avatar.md',
+                        '/component/title.md',
                     ]
                 },
             ]

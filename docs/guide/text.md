@@ -51,7 +51,7 @@
     </div>
 </div>
 
-![mp-cu](/images/text.png)
+![mp-cu](/images/other/text.png)
 
 
 ## 文字截断
