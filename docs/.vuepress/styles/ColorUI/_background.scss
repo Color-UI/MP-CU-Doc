@@ -1,0 +1,269 @@
+// 背景
+
+@import './var';
+@import './mixins';
+
+/* -- 基础色 -- */
+@each $color, $value in map-merge($colors, $darks) {
+    .bg-#{$color} {
+        background-color: $value !important;
+        @if $color == 'yellow' {
+            color: #333333 !important;
+        } @else {
+            color: #ffffff !important;
+        }
+    }
+}
+
+/* -- 浅色 -- */
+@each $color, $value in $colors {
+    .bg-#{$color}-light {
+        background-image: linear-gradient(45deg, white, mix(white, $value, 85%)) !important;
+        color: $value !important;
+    }
+
+    .bg-#{$color}-thin {
+        background-color: rgba($value, var(--ui-BG-opacity)) !important;
+        color: $value !important;
+    }
+}
+
+/* -- 渐变色 -- */
+
+@each $color, $value in $colors {
+    @each $colorsub, $valuesub in $colors {
+        @if $color != $colorsub {
+            .bg-#{$color}-#{$colorsub} {
+                background-image: linear-gradient(130deg, $value, $valuesub) !important;
+                color: #ffffff !important;
+            }
+        }
+    }
+}
+.bg-yellow-gradient {
+    background-image: linear-gradient(45deg, #f5fe00, #ff6600) !important;
+    color: $dark-3 !important;
+}
+.bg-orange-gradient {
+    background-image: linear-gradient(45deg, #ff9700, #ed1c24) !important;
+    color: $white !important;
+}
+.bg-red-gradient {
+    background-image: linear-gradient(45deg, #f33a41, #ed0586) !important;
+    color: $white !important;
+}
+.bg-pink-gradient {
+    background-image: linear-gradient(45deg, #fea894, #ff1047) !important;
+    color: $white !important;
+}
+.bg-mauve-gradient {
+    background-image: linear-gradient(45deg, #c01f95, #7115cc) !important;
+    color: $white !important;
+}
+.bg-purple-gradient {
+    background-image: linear-gradient(45deg, #9829ea, #5908fb) !important;
+    color: $white !important;
+}
+.bg-blue-gradient {
+    background-image: linear-gradient(45deg, #00b8f9, #0166eb) !important;
+    color: $white !important;
+}
+.bg-cyan-gradient {
+    background-image: linear-gradient(45deg, #06edfe, #48b2fe) !important;
+    color: $white !important;
+}
+.bg-green-gradient {
+    background-image: linear-gradient(45deg, #3ab54a, #8cc63f) !important;
+    color: $white !important;
+}
+.bg-olive-gradient {
+    background-image: linear-gradient(45deg, #90e630, #39d266) !important;
+    color: $white !important;
+}
+.bg-grey-gradient {
+    background-image: linear-gradient(45deg, #9aadb9, #354855) !important;
+    color: $white !important;
+}
+.bg-brown-gradient {
+    background-image: linear-gradient(45deg, #ca6f2e, #cb1413) !important;
+    color: $white !important;
+}
+
+@each $color, $value in $grays {
+    .bg-#{$color} {
+        background-color: $value !important;
+        color: #333333 !important;
+    }
+}
+
+.bg-square {
+    @include bg-square;
+}
+.bg-none {
+    background: transparent !important;
+    color: inherit !important;
+}
+
+[class*='bg-mask'] {
+    position: relative;
+    //background: transparent !important;
+    color: #FFFFFF !important;
+    > div,
+    > span {
+        position: relative;
+        z-index: 1;
+        color: #ffffff;
+    }
+    &::before {
+        content: '';
+        border-radius: inherit;
+        width: 100%;
+        height: 100%;
+        @include position-center;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index: 0;
+    }
+    @at-root .bg-mask-80::before {
+        background: rgba(0, 0, 0, 0.8) !important;
+    }
+    @at-root .bg-mask-50::before {
+        background: rgba(0, 0, 0, 0.5) !important;
+    }
+    @at-root .bg-mask-20::before {
+        background: rgba(0, 0, 0, 0.2) !important;
+    }
+    @at-root .bg-mask-top::before {
+        background-color: rgba(0, 0, 0, 0);
+        background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.618), rgba(0, 0, 0, 0.01));
+    }
+    @at-root .bg-white-top {
+        background-color: rgba(0, 0, 0, 0);
+        background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
+    }
+    @at-root .bg-mask-bottom::before {
+        background-color: rgba(0, 0, 0, 0);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.618), rgba(0, 0, 0, 1));
+    }
+}
+.bg-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+[class*='bg-blur'] {
+    position: relative;
+    > div,
+    > span {
+        position: relative;
+        z-index: 1;
+    }
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        @include position-center;
+        border-radius: inherit;
+        transform-origin: 0 0;
+        pointer-events: none;
+        box-sizing: border-box;
+    }
+}
+@supports (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px)) {
+    .bg-blur::before {
+        @include blur;
+        background-color: var(--ui-Blur-1);
+    }
+    .bg-blur-1::before {
+        @include blur;
+        background-color: var(--ui-Blur-2);
+    }
+    .bg-blur-2::before {
+        @include blur;
+        background-color: var(--ui-Blur-3);
+    }
+}
+@supports not (backdrop-filter: blur(5px)) {
+    .bg-blur {
+        color: var(--ui-TC);
+        &::before {
+            background-color: var(--ui-BG);
+        }
+    }
+    .bg-blur-1 {
+        color: var(--ui-TC);
+        &::before {
+            background-color: var(--ui-BG-1);
+        }
+    }
+    .bg-blur-2 {
+        color: var(--ui-TC);
+        &::before {
+            background-color: var(--ui-BG-2);
+        }
+    }
+}
+
+@each $value in ('', '-1', '-2', '-3', '-4') {
+    .ui-BG#{$value} {
+        background-color: var(--ui-BG#{$value}) !important;
+        color: var(--ui-TC);
+    }
+    .ui-TC#{$value} {
+        color: var(--ui-TC#{$value}) !important;
+    }
+    .ui-BG-Main#{$value} {
+        background-color: var(--ui-BG-Main#{$value}) !important;
+        color: var(--ui-BG-Main-TC) !important;
+    }
+    .ui-TC-Main#{$value} {
+        color: var(--ui-BG-Main#{$value}) !important;
+    }
+}
+
+:root {
+    --ui-BG-Main: $blue;
+    --ui-BG-Main-1: #{mix(rgba(255, 255, 255, 0.7), desaturate($blue, 20%), 10%)};
+    --ui-BG-Main-2: #{mix(rgba(255, 255, 255, 0.6), desaturate($blue, 40%), 20%)};
+    --ui-BG-Main-3: #{mix(rgba(119, 119, 119, 0.2), desaturate($blue, 40%), 40%)};
+    --ui-BG-Main-4: #{mix(rgba(119, 119, 119, 0.1), desaturate($blue, 40%), 60%)};
+    --ui-BG-Main-TC: #ffffff;
+
+    // 背景色
+    --ui-BG:                        #ffffff;
+    --ui-BG-1:                      #f6f6f6;
+    --ui-BG-2:                      #f1f1f1;
+    --ui-BG-3:                      #e8e8e8;
+    --ui-BG-4:                      #e0e0e0;
+
+    // 文本色
+    --ui-TC:                    	#303030;
+    --ui-TC-1:                    	#525252;
+    --ui-TC-2:                    	#777777;
+    --ui-TC-3:                    	#9e9e9e;
+    --ui-TC-4:                    	#c6c6c6;
+
+    // 模糊
+    --ui-Blur:                    	rgba(255, 255, 255, 0.98);
+    --ui-Blur-1:                	rgba(255, 255, 255, 0.75);
+    --ui-Blur-2:                	rgba(255,255,255,0.25);
+    --ui-Blur-3:                	rgba(255,255,255,0.05);
+
+    // 边框
+    --ui-Border:           		   	rgba(119,119,119,0.25);
+    --ui-Outline:                   rgba(0,0,0,0.1);
+    --ui-Line:                      rgba(119,119,119,0.25);
+
+    // 透明与阴影
+    --ui-Shadow:           		   	0 .5em 1em rgba(0, 0, 0, 0.15);
+    --ui-Shadow-sm:                 0 .125em .25em rgba(0, 0, 0, 0.075);
+    --ui-Shadow-lg:                 0 1em 3em rgba(0, 0, 0, 0.175);
+    --ui-Shadow-inset:              inset 0 .1em .2em rgba(0, 0, 0, 0.075);
+
+    --ui-Shadow-opacity:			0.45;
+    --ui-Shadow-opacity-sm:			0.075;
+    --ui-Shadow-opacity-lg:			0.65;
+
+    --ui-BG-opacity:    			.1;
+}
+

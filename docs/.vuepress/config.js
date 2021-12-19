@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/MP-CU/',
+    base: '/',
     lang: 'zh-CN',
     title: 'MP-CU文档',
     description: 'MP-CU文档，ColorUI 微信原生小程序UI组件库',
@@ -10,24 +10,32 @@ module.exports = {
         logo: '/images/icon/logo.png',
         navbar: [
             {
-                text: '组件',
+                text: '指南',
                 link: '/guide/'
+            },
+            {
+                text: '组件',
+                link: '/component/'
+            },
+            {
+                text: '实验室',
+                link: '/laboratory/'
+            },
+            {
+                text: '模板',
+                link: '/template/'
+            },
+            {
+                text: '定制',
+                link: '/custom/'
             },
             {
                 text: 'Api',
                 link: '/api/'
             },
             {
-                text: '实验室',
-                link: '/test/'
-            },
-            {
-                text: '模板',
-                link: '/tpl/'
-            },
-            {
-                text: '定制',
-                link: '/custom/'
+                text: '更新日志',
+                link: '/update/'
             },
             {
                 text: '生态',
@@ -40,7 +48,24 @@ module.exports = {
                 text: 'GitHub',
                 link: 'https://github.com/Color-UI/MP-CU'
             },
-        ]
+        ],
+        sidebar: {
+            '/guide/': [
+                {
+                    text: '指南',
+                    children: [
+                        '/guide/README.md',
+                        '/guide/getting-started.md',
+                        '/guide/configuration.md',
+                        '/guide/sys.md',
+                        '/guide/built-in.md',
+                        '/guide/background.md',
+                    ]
+                },
+            ]
+        },
+        contributors: false,
+        lastUpdatedText: '上次更新'
     },
     plugins: [
         [

@@ -7,7 +7,7 @@ actions:
   type: primary
 - text: GitHub
   link: https://github.com/Color-UI/MP-CU
-  type: secondary
+  type: secondary github
 features:
 - title: 组件
   details: ColorUI3.x 对比 ColorUI2.x，从之前的class方式，转为了组件化的方式，并提供了丰富的自定义参数以及插槽
