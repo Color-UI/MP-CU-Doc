@@ -42,9 +42,15 @@ html.dark {
 .pb-3 {
     padding-bottom: 10px;
 }
+.px-4 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .radius {
-    -webkit-border-radius: 5px;
     border-radius: 5px;
+}
+.round {
+    border-radius: 500px;
 }
 .flex-bar {
     position: relative;
@@ -57,4 +63,48 @@ html.dark {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.flex {
+    display: flex;
+}
+.flex-sub {
+    flex: 1;
+}
+.my-3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my-4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.inline-block {
+    display: inline-block!important;
+}
+.mt-3 {
+    margin-top: 10px!important;
+}
+.py-4 {
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+}
+.mt-2 {
+    margin-top: 5px!important;
+}
+.icon-xxl {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+.px-3 {
+    padding-right: 10px!important;
+    padding-left: 10px!important;
 }

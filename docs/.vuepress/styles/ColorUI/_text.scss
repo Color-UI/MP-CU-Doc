@@ -80,6 +80,24 @@
         background-color: transparent;
         border: 0;
     }
+    &-light {
+        font-weight: 300!important;
+    }
+    &-lighter {
+        font-weight: lighter!important;
+    }
+    &-normal {
+        font-weight: 400!important;
+    }
+    &-bold {
+        font-weight: 700!important;
+    }
+    &-bolder {
+        font-weight: 900!important;
+    }
+    &-nowrap {
+        white-space: nowrap!important;
+    }
 }
 
 .heading-1 {

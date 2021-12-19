@@ -60,6 +60,19 @@ module.exports = {
                         '/guide/sys.md',
                         '/guide/built-in.md',
                         '/guide/background.md',
+                        '/guide/text.md',
+                        '/guide/icon.md',
+                        '/guide/shadow.md',
+                        '/guide/border.md'
+                    ]
+                },
+            ],
+            '/component/': [
+                {
+                    text: '组件',
+                    children: [
+                        '/component/README.md',
+                        '/component/theme.md',
                     ]
                 },
             ]
