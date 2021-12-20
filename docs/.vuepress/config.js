@@ -87,6 +87,10 @@ module.exports = {
                         '/component/card.md',
                         '/component/grid.md',
                         '/component/popover.md',
+                        '/component/modal.md',
+                        '/component/toast.md',
+                        '/component/tab.md',
+                        '/component/swiper.md',
                     ]
                 },
             ]
@@ -97,7 +101,7 @@ module.exports = {
     plugins: [
         [
             '@vuepress/plugin-search', {
-                locales: {'/': {placeholder: 'Search'}, '/zh/': {placeholder: '搜索'}},
+                locales: {placeholder: 'Search'},
                 isSearchable: (page) => page.path !== '/', // 排除首页
             },
         ],
