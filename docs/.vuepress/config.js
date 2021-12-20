@@ -76,6 +76,17 @@ module.exports = {
                         '/component/navbar.md',
                         '/component/avatar.md',
                         '/component/title.md',
+                        '/component/tag.md',
+                        '/component/button.md',
+                        '/component/image.md',
+                        '/component/code.md',
+                        '/component/progress.md',
+                        '/component/loading.md',
+                        '/component/menu.md',
+                        '/component/fixed.md',
+                        '/component/card.md',
+                        '/component/grid.md',
+                        '/component/popover.md',
                     ]
                 },
             ]

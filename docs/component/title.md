@@ -114,7 +114,6 @@
 <ui-title title="猜你喜欢" titleColor="text-red" tpl="center-column" hasLine/>
 ```
 
-
 ## 参数
 
 |  参数  |  类型  |  可选值  |  默认值  |       说明       |
