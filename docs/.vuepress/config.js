@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/',
+    base: '/', // 码云 那边需要改为 /mp-cu/
     lang: 'zh-CN',
     title: 'MP-CU文档',
     description: 'MP-CU文档，ColorUI 微信原生小程序UI组件库',
