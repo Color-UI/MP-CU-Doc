@@ -8,7 +8,7 @@
 
 ## 示例
 
-![mp-cu](/images/loading/loading.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/loading/loading.png)
 
 ```html
 <ui-loading/>
@@ -35,7 +35,7 @@
 ```
 
 
-![mp-cu](/images/loading/loading.gif)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/loading/loading.gif)
 
 
 ## 参数

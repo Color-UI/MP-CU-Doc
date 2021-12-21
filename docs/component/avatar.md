@@ -13,7 +13,7 @@
 
 `radius`, `round`, `ellipse` 提供圆角,圆形,和超椭圆形状。
 
-![mp-cu](/images/avatar/avatar.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar.png)
 
 ```html
 <ui-avatar ui="radius"/>
@@ -24,7 +24,7 @@
 
 ## 大小
 
-![mp-cu](/images/avatar/avatar1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar1.png)
 
 ```html
 <ui-avatar ui="ellipse sm">sm</ui-avatar>
@@ -37,7 +37,7 @@
 
 ## 背景
 
-![mp-cu](/images/avatar/avatar2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar2.png)
 
 ```html
 <ui-avatar ui="ellipse" bg="bg-orange">Wg</ui-avatar>
@@ -50,7 +50,7 @@
 
 ## 图像
 
-![mp-cu](/images/avatar/avatar3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar3.png)
 
 ```html
 <ui-avatar ui="radius" src="/static/avatar/1001.jpg"/>
@@ -60,7 +60,7 @@
 
 ## 图标
 
-![mp-cu](/images/avatar/avatar4.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar4.png)
 
 ```html
 <ui-avatar ui="radius" icon="cicon-android"/>
@@ -70,7 +70,7 @@
 
 ## 角标
 
-![mp-cu](/images/avatar/avatar5.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar5.png)
 
 ```html
 <ui-avatar ui="radius xl" src="/static/avatar/1001.jpg">
@@ -100,7 +100,7 @@
 
 ## 多头像层叠
 
-![mp-cu](/images/avatar/avatar6.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar6.png)
 
 ```html
 <ui-avatar-stack>
@@ -110,7 +110,7 @@
 </ui-avatar-stack>
 ```
 
-![mp-cu](/images/avatar/avatar7.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar7.png)
 
 ```html
 <ui-avatar-stack reverse>
@@ -122,7 +122,7 @@
 
 ## 头像组
 
-![mp-cu](/images/avatar/avatar8.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar8.png)
 
 ```html
 <view class="p-3 flex align-center">

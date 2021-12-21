@@ -4,7 +4,7 @@ sys组件内置了，一般不需要再次挂载该组件。
 
 ## Tips
 
-![mp-cu](/images/toast/toast-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/toast/toast-1.png)
 
 ```javascript
 //普通，默认1500毫秒关闭
@@ -24,7 +24,7 @@ this.$tips({
 
 ### 状态框
 
-![mp-cu](/images/toast/toast-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/toast/toast-2.png)
 
 ```html
 <button class="ui-btn" bindtap="$success">Success</button>
@@ -33,7 +33,7 @@ this.$tips({
 
 ### 加载框 
 
-![mp-cu](/images/toast/toast-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/toast/toast-3.png)
 
 ```javascript
 Loading() {

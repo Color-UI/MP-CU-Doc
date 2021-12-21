@@ -8,7 +8,7 @@
 
 ## 示例-1
 
-![mp-cu](/images/card/card-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/card/card-1.png)
 
 ```html
 <ui-card ui="shadow m-3 radius" imgHeight="auto" img="img" title="title" isTag>
@@ -23,7 +23,7 @@
 
 ## 示例-2
 
-![mp-cu](/images/card/card-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/card/card-2.png)
 
 ```html
 <ui-card ui="shadow m-3 radius" imgHeight="180rpx" img="img" title="title" desc="desc" isTag>
@@ -39,7 +39,7 @@
 
 ## 示例-3
 
-![mp-cu](/images/card/card-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/card/card-3.png)
 
 ```html
 <ui-card ui="shadow m-3 radius" img="img" title="title" desc="desc" fixedTitle/>

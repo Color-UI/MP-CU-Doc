@@ -9,7 +9,7 @@
 
 ## 示例
 
-![mp-cu](/images/menu/menu.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/menu/menu.png)
 
 ```html
 <ui-menu ui="mt-5 border radius">

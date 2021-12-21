@@ -10,7 +10,7 @@
 
 ## 默认
 
-![mp-cu](/images/tag/tag-1.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tag/tag-1.jpg)
 
 ```html
 <ui-tag info="30"/>
@@ -20,7 +20,7 @@
 
 `ui="round"`
 
-![mp-cu](/images/tag/tag-2.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tag/tag-2.jpg)
 
 ```html
 <ui-tag ui="" info="春风"/>
@@ -31,7 +31,7 @@
 
 `ui="{size}"`
 
-![mp-cu](/images/tag/tag-3.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tag/tag-3.jpg)
 
 ```html
 <ui-tag ui="sm" info="sm"/>
@@ -45,7 +45,7 @@
 
 `src="{src}"`
 
-![mp-cu](/images/tag/tag-4.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tag/tag-4.jpg)
 
 ```html
 <ui-tag info="糖果炸弹" src="/static/avatar/1004.jpg"/>
@@ -56,7 +56,7 @@
 
 `bg="{bg}"`
 
-![mp-cu](/images/tag/tag-5.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tag/tag-5.jpg)
 
 ```html
 <ui-tag info="bg-red" bg="bg-red" src="/static/avatar/1001.jpg"/>
@@ -71,7 +71,7 @@
 
 `badge="{direction: tl(左上) / tr(右上) / bl(左下) / br(右下)}"`
 
-![mp-cu](/images/tag/tag-6.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tag/tag-6.jpg)
 
 info置空并且不设置插槽的情况下设置badge,标签默认为小红点
 

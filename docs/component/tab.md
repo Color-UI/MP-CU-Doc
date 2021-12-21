@@ -8,7 +8,7 @@
 
 ## 默认
 
-![mp-cu](/images/tab/tab-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-1.png)
 
 ```html
 <ui-tab tab="{{['选项卡1','选项卡2','选项卡3']}}" ui="sm"/>
@@ -16,7 +16,7 @@
 
 ## 标记在上
 
-![mp-cu](/images/tab/tab-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-2.png)
 
 ```html
 <ui-tab tab="{{['选项卡1','选项卡2','选项卡3']}}" tpl="topline" ui="sm"/>
@@ -24,7 +24,7 @@
 
 ## 点标记
 
-![mp-cu](/images/tab/tab-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-3.png)
 
 ```html
 <ui-tab tab="{{['选项卡1','选项卡2','选项卡3']}}" tpl="dot" ui="sm"/>
@@ -32,7 +32,7 @@
 
 ## 短划线标记
 
-![mp-cu](/images/tab/tab-4.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-4.png)
 
 ```html
 <ui-tab tab="{{['选项卡1','选项卡2','选项卡3']}}" tpl="long" ui="sm"/>
@@ -40,7 +40,7 @@
 
 ## 梯形标记
 
-![mp-cu](/images/tab/tab-5.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-5.png)
 
 ```html
 <ui-tab tab="{{['选项卡1','选项卡2','选项卡3']}}" tpl="trapezoid" ui="sm"/>
@@ -48,7 +48,7 @@
 
 ## 按钮标记
 
-![mp-cu](/images/tab/tab-6.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-6.png)
 
 ```html
 <ui-tab tab="{{['选项卡1','选项卡2','选项卡3']}}" tpl="btn" mark="bg-red round" curColor="text-white" ui="sm"/>
@@ -56,7 +56,7 @@
 
 ## 分段器1
 
-![mp-cu](/images/tab/tab-7.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-7.png)
 
 ```html
 <view class="ui-BG-3 p-3 text-center">
@@ -66,7 +66,7 @@
 
 ## 分段器2
 
-![mp-cu](/images/tab/tab-8.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-8.png)
 
 ```html
 <view class="p-3 text-center">
@@ -76,7 +76,7 @@
 
 ## 分段器3
 
-![mp-cu](/images/tab/tab-9.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-9.png)
 
 ```html
 <view class="p-3 text-center">
@@ -87,7 +87,7 @@
 
 ## 分段器4
 
-![mp-cu](/images/tab/tab-10.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-10.png)
 
 ```html
 <ui-tab tab="{{['选项卡1','选项卡2','选项卡3','选项卡4']}}" tpl="btn" mark="bg-white radius" ui="bg-red radius sm" curColor="text-red" inline/>
@@ -95,7 +95,7 @@
 
 ## 等分
 
-![mp-cu](/images/tab/tab-11.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-11.png)
 
 ```html
 <ui-tab tab="{{['选项卡1', '选项卡2', '选项卡3', '选项卡4']}}" value="{{2}}" align="flex-bar" ui="sm"/>
@@ -103,7 +103,7 @@
 
 ## 居中
 
-![mp-cu](/images/tab/tab-12.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-12.png)
 
 ```html
 <ui-tab tab="{{['选项卡1', '选项卡2', '选项卡3']}}" align="flex-center" ui="sm"/>
@@ -111,7 +111,7 @@
 
 ## 滚动
 
-![mp-cu](/images/tab/tab-13.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-13.png)
 
 ```html
 <ui-tab tab="{{['选项卡1', '选项卡2', '选项卡3', '选项卡4', '选项卡5', '选项卡6']}}" scroll ui="sm"/>
@@ -119,7 +119,7 @@
 
 ## 背景
 
-![mp-cu](/images/tab/tab-14.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-14.png)
 
 ```html
 <ui-tab ui="bg-red sm" mark="text-white" tab="{{['选项卡1', '选项卡2', '选项卡3']}}" curColor="text-white"/>
@@ -127,7 +127,7 @@
 
 ## 绑定值
 
-![mp-cu](/images/tab/tab-15.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-15.png)
 
 ```html
 <ui-tab tab="{{['选项卡1', '选项卡2', '选项卡3']}}" value="{{NavCur}}" ui="sm" bind:change="tabNavChange"/>
@@ -135,7 +135,7 @@
 
 ## 事件/多数据
 
-![mp-cu](/images/tab/tab-16.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/tab/tab-16.png)
 
 ```html
 <ui-tab tab="{{[{name:'选项卡1',icon:'cicon-github text-red'},{name:'选项卡2',tag:''},{name:'选项卡3',tag:'hot'}]}}" bind:change="tabChange" ui="sm"/>

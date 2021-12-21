@@ -4,10 +4,10 @@ module.exports = {
     title: 'MP-CU文档',
     description: 'MP-CU文档，ColorUI 微信原生小程序UI组件库',
     head: [
-        ['link', {rel: 'icon', href: '/images/icon/favicon.ico'}]
+        ['link', {rel: 'icon', href: '/images/favicon.ico'}]
     ],
     themeConfig: {
-        logo: '/images/icon/logo.png',
+        logo: '/images/logo.png',
         navbar: [
             {
                 text: '指南',
@@ -103,7 +103,7 @@ module.exports = {
             '@vuepress/plugin-search', {
                 locales: {placeholder: 'Search'},
                 isSearchable: (page) => page.path !== '/', // 排除首页
-            },
-        ],
+            }
+        ]
     ],
 }

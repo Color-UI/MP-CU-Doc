@@ -10,7 +10,7 @@
 
 ## 默认
 
-![mp-cu](/images/progress/progress-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/progress/progress-1.png)
 
 ```html
 <ui-progress progress="40"/>
@@ -18,7 +18,7 @@
 
 ## 形状
 
-![mp-cu](/images/progress/progress-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/progress/progress-2.png)
 
 ```html
 <ui-progress progress="61.8"/>
@@ -27,7 +27,7 @@
 
 ## 尺寸
 
-![mp-cu](/images/progress/progress-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/progress/progress-3.png)
 
 ```html
 <ui-progress sm progress="61.8"/>
@@ -37,7 +37,7 @@
 
 ## 颜色
 
-![mp-cu](/images/progress/progress-4.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/progress/progress-4.png)
 
 ```html
 <ui-progress bg="bg-green" progress="61.8"/>
@@ -48,7 +48,7 @@
 
 ## 条纹
 
-![mp-cu](/images/progress/progress-5.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/progress/progress-5.png)
 
 ```html
 <ui-progress striped progress="61.8"/>
@@ -57,7 +57,7 @@
 
 ## 组合
 
-![mp-cu](/images/progress/progress-6.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/progress/progress-6.png)
 
 ```html
 <ui-progress progressArray="{{[40.8,20,8]}}" bgArray="{{['bg-red','bg-green','bg-blue']}}" striped active round/>
@@ -65,7 +65,7 @@
 
 ## 布局
 
-![mp-cu](/images/progress/progress-7.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/progress/progress-7.png)
 
 ```html
 <ui-progress border progressArray="{{[40.8,20,8]}}" bgArray="{{['bg-red','bg-green','bg-blue']}}" striped active round/>

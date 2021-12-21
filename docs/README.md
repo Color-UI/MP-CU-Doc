@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/icon/logo.png
+heroImage: /images/logo.png
 actions:
 - text: 开始使用
   link: /guide/

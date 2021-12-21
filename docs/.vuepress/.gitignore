@@ -1,0 +1,6 @@
+.temp/
+.cache/
+.idea/
+dist/
+
+.DS_Store

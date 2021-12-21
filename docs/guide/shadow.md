@@ -56,5 +56,5 @@ ColorUI设定了类名来控制阴影，部分组件也有对应参数来控制�
 
 `.shadow-warp`
 
-![mp-cu](/images/other/shadow-warp.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/other/shadow-warp.png)
 

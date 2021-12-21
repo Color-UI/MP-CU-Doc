@@ -8,7 +8,7 @@
 
 ## 示例
 
-![mp-cu](/images/other/fixed.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/other/fixed.png)
 
 ```html
 <ui-fixed bg="bg-mask-20" scrollTop="0">

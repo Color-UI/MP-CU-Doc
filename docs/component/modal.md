@@ -8,7 +8,7 @@
 
 ## 系统调用
 
-![mp-cu](/images/modal/modal-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-1.png)
 
 ```javascript
 this.$showDialog({
@@ -32,7 +32,7 @@ this.$showDialog({
 
 ## 自定义-1
 
-![mp-cu](/images/modal/modal-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-2.png)
 
 ```html
 <ui-modal show="{{true}}" dialog="width:auto" option="{{false}}">
@@ -44,7 +44,7 @@ this.$showDialog({
 
 ## 自定义-2
 
-![mp-cu](/images/modal/modal-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-3.png)
 
 ```html
 <ui-modal show="{{true}}" bind:success='success'>
@@ -58,7 +58,7 @@ this.$showDialog({
 
 ### 组件调用
 
-![mp-cu](/images/modal/modal-4.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-4.png)
 
 ```html
 <ui-modal show="{{true}}" showCancel="{{false}}">
@@ -70,7 +70,7 @@ this.$showDialog({
 
 ### 系统调用
 
-![mp-cu](/images/modal/modal-5.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-5.png)
 
 ```javascript
 this.$showDialog({
@@ -86,7 +86,7 @@ this.$showDialog({
 
 ### 组件调用
 
-![mp-cu](/images/modal/modal-6.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-6.png)
 
 ```html
 <ui-modal show="{{true}}" cancelText="再见" confirmText="好的">
@@ -98,7 +98,7 @@ this.$showDialog({
 
 ### 系统调用
 
-![mp-cu](/images/modal/modal-7.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-7.png)
 
 ```javascript
 this.$showDialog({
@@ -115,7 +115,7 @@ this.$showDialog({
 
 ### 透明-1
 
-![mp-cu](/images/modal/modal-8.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-8.png)
 
 ```html
 <ui-modal show="{{true}}" transparent mask="40" iconCancel>
@@ -127,7 +127,7 @@ this.$showDialog({
 
 ###  透明-2
 
-![mp-cu](/images/modal/modal-9.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-9.png)
 
 ```html
 <ui-modal show="{{true}}" cancelText="再见" confirmText="好的" transparent mask="40">
@@ -141,7 +141,7 @@ this.$showDialog({
 
 ### drawer
 
-![mp-cu](/images/modal/modal-10.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-10.png)
 
 ```html
 <ui-modal show="{{true}}" mask="40" align="bottom">
@@ -153,7 +153,7 @@ this.$showDialog({
 
 ### top
 
-![mp-cu](/images/modal/modal-11.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/modal/modal-11.png)
 
 ```html
 <ui-modal show="{{true}}" mask="40" align="top">

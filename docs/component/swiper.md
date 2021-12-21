@@ -10,7 +10,7 @@
 
 `dotStyle='default'`
 
-![mp-cu](/images/swiper/swiper-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/swiper/swiper-1.png)
 
 ```html
 <ui-swiper info="{{[{img:'xxx', type: 'url'}, {img:'xxx', type: 'path'}]}}" dotCur="ui-BG-Main"/>
@@ -20,7 +20,7 @@
 
 `dotStyle='long'`
 
-![mp-cu](/images/swiper/swiper-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/swiper/swiper-2.png)
 
 ```html
 <ui-swiper info="{{[{img:'xxx', type: 'url'}, {img:'xxx', type: 'path'}]}}" dotStyle="long" dotCur="bg-white"/>
@@ -30,7 +30,7 @@
 
 `dotStyle='line'`
 
-![mp-cu](/images/swiper/swiper-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/swiper/swiper-3.png)
 
 ```html
 <ui-swiper info="{{[{img:'xxx', type: 'url'}, {img:'xxx', type: 'path'}]}}" dotStyle="line" dotCur="bg-white"/>
@@ -40,7 +40,7 @@
 
 `dotStyle='tag'`
 
-![mp-cu](/images/swiper/swiper-4.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/swiper/swiper-4.png)
 
 ```html
 <ui-swiper info="{{[{img:'xxx', type: 'url'}, {img:'xxx', type: 'path'}]}}" dotStyle="tag" dotCur="bg-mask-50"/>
@@ -50,7 +50,7 @@
 
 `mode='card'`
 
-![mp-cu](/images/swiper/swiper-5.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/swiper/swiper-5.png)
 
 ```html
 <ui-swiper info="{{[{img:'xxx', type: 'url'}, {img:'xxx', type: 'path'}]}}" 
@@ -61,7 +61,7 @@
 
 `mode='hotelCard'`
 
-![mp-cu](/images/swiper/swiper-6.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/swiper/swiper-6.png)
 
 ```html
 <ui-swiper info="{{[{img:'xxx', type: 'url'}, {img:'xxx', type: 'path'}]}}" mode="hotelCard" dotStyle="line" dotCur="bg-white"/>
@@ -71,7 +71,7 @@
 
 `mode='hotelDetail'`
 
-![mp-cu](/images/swiper/swiper-7.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/swiper/swiper-7.png)
 
 ```html
 <ui-swiper info="{{[{img:'xxx', type: 'url'}, {img:'xxx', type: 'path'}]}}" mode="hotelDetail" 

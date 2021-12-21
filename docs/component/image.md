@@ -10,7 +10,7 @@
 
 ## 示例
 
-![mp-cu](/images/image/image.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/image/image.jpg)
 
 ```html
 <ui-img preview ui="radius border" src="xxx" urls="{{['xxx','xxx']}}" current="0"/>

@@ -14,7 +14,7 @@
 
 `<ui-code></ui-code>`
 
-![mp-cu](/images/code/code-1.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/code/code-1.jpg)
 
 ```html
 <ui-code content="<ui-code>...</ui-code> \n<ui-code content='...'></ui-code>"/>
@@ -27,7 +27,7 @@
 代码高亮是使用了 `PrismJS` 暗色主题的高亮颜色是亮色主题的反转。
 
 
-![mp-cu](/images/code/code-2.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/code/code-2.jpg)
 
 ```html
 <ui-code tag="pre" lang="html" content="<ui-code>...</ui-code> \n<ui-code content='...'></ui-code>"/>

@@ -14,7 +14,7 @@
 
 ## 仅图标
 
-<img class="navbar-images radius border" src='/images/other/ozgly.jpg'/>
+<img class="navbar-images radius border" src='https://color-ui.gitee.io/assest/mp-cu-doc/other/ozgly.jpg'/>
 
 ```html
 <ui-navbar/>
@@ -22,7 +22,7 @@
 
 ## 返回文本
 
-<img class="navbar-images radius border" src='/images/other/i4ux8.jpg'/>
+<img class="navbar-images radius border" src='https://color-ui.gitee.io/assest/mp-cu-doc/other/i4ux8.jpg'/>
 
 ```html
 <ui-navbar backtext="text"/>
@@ -30,7 +30,7 @@
 
 ## 有阴影
 
-<img class="navbar-images radius border" src='/images/other/7i87w.jpg'/>
+<img class="navbar-images radius border" src='https://color-ui.gitee.io/assest/mp-cu-doc/other/7i87w.jpg'/>
 
 ```html
 <ui-navbar shadow/>

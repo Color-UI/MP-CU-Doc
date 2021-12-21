@@ -28,8 +28,7 @@ MP = miniprogram，CU = ColorUI, 在注册小程序名字时，又因为其它Co
 
 ## 演示码
 
-![mp-cu](/images/icon/mp-cu.jpg)
-
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/mp-cu.jpg)
 
 ## 鸣谢
 

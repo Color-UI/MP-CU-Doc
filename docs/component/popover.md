@@ -12,7 +12,7 @@
 
 文字提示会自动关闭。
 
-![mp-cu](/images/popover/popover-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/popover/popover-1.png)
 
 ```html
 <ui-popover tips="这里是提示文本">
@@ -24,7 +24,7 @@
 
 默认无遮罩。
 
-![mp-cu](/images/popover/popover-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/popover/popover-2.png)
 
 ```html
 <ui-popover tips="这里是提示文本" mask>
@@ -36,7 +36,7 @@
 
 默认是`box-bg`菜单色。
 
-![mp-cu](/images/popover/popover-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/popover/popover-3.png)
 
 ```html
 <ui-popover tips="这里是提示文本" bg="bg-red">
@@ -48,7 +48,7 @@
 
 设定 `content` 插槽可以自定义气泡框内容，由于微信小程序不存在mouseleave方法，如果不希望弹出层自动关闭，请设定为参数控制打开。
 
-![mp-cu](/images/popover/popover-4.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/popover/popover-4.png)
 
 ```html
 <ui-popover show="{{isShow}}">
@@ -65,7 +65,7 @@
 
 可以更改时间自动关闭，单位毫秒。文字提示默认是3000毫秒，自定义内容默认需要点击空白处或者遮罩关闭
 
-![mp-cu](/images/popover/popover-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/popover/popover-1.png)
 
 ```html
 <ui-popover tips="这里是提示文本" time="{{5000}}">
@@ -77,7 +77,7 @@
 
 自定义触发方式,设定 `show` 来控制气泡框的显示，需要开启 `isChange`
 
-![mp-cu](/images/popover/popover-5.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/popover/popover-5.png)
 
 ```html
 <view class="flex-bar p-3 radius ui-BG">

@@ -10,7 +10,7 @@
 
 ## 默认
 
-![mp-cu](/images/title/title.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title.png)
 
 ```html
 <ui-title title="标题"/>
@@ -18,7 +18,7 @@
 
 ## 副标题
 
-![mp-cu](/images/title/title-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-1.png)
 
 ```html
 <ui-title title="标题" desc="副标题"/>
@@ -26,7 +26,7 @@
 
 ## 显示图标
 
-![mp-cu](/images/title/title-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-2.png)
 
 ```html
 <ui-title title="基础" desc="basic" isIcon/>
@@ -34,7 +34,7 @@
 
 ## 自定义图标
 
-![mp-cu](/images/title/title-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-3.png)
 
 ```html
 <ui-title title="自定义图标" desc="icon">
@@ -46,7 +46,7 @@
 
 不同等级字号、上下边距、默认的图标会不一样。 `depth="{1~4}"`
 
-![mp-cu](/images/title/title-4.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-4.png)
 
 ```html
 <ui-title title="等级一" desc="等级一" isIcon depth="1"/>
@@ -59,7 +59,7 @@
 
 圆点 `hasDot="true"` ， 短线 `hasLine="true"`
 
-![mp-cu](/images/title/title-5.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-5.png)
 
 ```html
 <ui-title title="圆点" desc="dot" hasDot/>
@@ -70,7 +70,7 @@
 
 内容对齐 `align="{left / center / right}"`
 
-![mp-cu](/images/title/title-6.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-6.png)
 
 ```html
 <ui-title title="基础" desc="basic" align="left"/>
@@ -82,7 +82,7 @@
 
 `tpl="stack" hasDot`
 
-![mp-cu](/images/title/title-7.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-7.png)
 
 ```html
 <ui-title title="精选推荐" titleColor="text-blue" descUi="text-cyan" desc="Carefully chosen" tpl="stack" hasDot/>
@@ -90,7 +90,7 @@
 
 `tpl="stack" hasLine`
 
-![mp-cu](/images/title/title-8.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-8.png)
 
 ```html
 <ui-title title="精选推荐" titleColor="text-blue" descUi="text-cyan" desc="Carefully chosen" tpl="stack" hasLine/>
@@ -98,7 +98,7 @@
 
 `tpl="center-column" hasDot`
 
-![mp-cu](/images/title/title-9.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-9.png)
 
 ```html
 <ui-title title="精选推荐" titleColor="text-blue" descUi="text-cyan" desc="Carefully chosen" tpl="center-column" hasDot/>
@@ -107,7 +107,7 @@
 
 `tpl="center-column" hasLine`
 
-![mp-cu](/images/title/title-10.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/title/title-10.png)
 
 ```html
 <ui-title title="猜你喜欢" titleColor="text-red" descUi="text-orange" desc="Guess you like" tpl="center-column" hasLine/>

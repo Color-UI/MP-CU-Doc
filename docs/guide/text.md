@@ -51,7 +51,7 @@
     </div>
 </div>
 
-![mp-cu](/images/other/text.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/other/text.png)
 
 
 ## 文字截断

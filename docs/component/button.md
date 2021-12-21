@@ -4,7 +4,7 @@
 
 ## 默认
 
-![mp-cu](/images/button/button-1.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-1.jpg)
 
 ```html
 <button class="ui-btn">按钮</button>
@@ -12,7 +12,7 @@
 
 ## 颜色
 
-![mp-cu](/images/button/button-2.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-2.jpg)
 
 ```html
 <view class="p-3 flex-between">
@@ -37,7 +37,7 @@
 
 ## 尺寸
 
-![mp-cu](/images/button/button-3.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-3.jpg)
 
 ```html
 <view class="p-3 flex-between">
@@ -50,7 +50,7 @@
 
 ## 形状
 
-![mp-cu](/images/button/button-4.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-4.jpg)
 
 ```html
 <view class="p-3 flex-between">
@@ -66,7 +66,7 @@
 
 ## 块状
 
-![mp-cu](/images/button/button-5.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-5.jpg)
 
 ```html
 <view class="p-3">
@@ -76,7 +76,7 @@
 
 ## 阴影
 
-![mp-cu](/images/button/button-6.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-6.jpg)
 
 ```html
 <view class="p-4">
@@ -95,7 +95,7 @@
 
 ## 边框
 
-![mp-cu](/images/button/button-7.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-7.jpg)
 
 ```html
 <view class="p-3 flex-between">
@@ -143,7 +143,7 @@
 
 ## 无效
 
-![mp-cu](/images/button/button-8.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-8.jpg)
 
 ```html
 <view class="p-3 flex-between">
@@ -156,7 +156,7 @@
 
 ## 图标
 
-![mp-cu](/images/button/button-9.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-9.jpg)
 
 ```html
 <view class="p-3">
@@ -195,7 +195,7 @@
 
 ## 加载
 
-![mp-cu](/images/button/button-10.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-10.jpg)
 
 ```html
 <view class="p-3">
@@ -225,7 +225,7 @@
 
 ## 无样式
 
-![mp-cu](/images/button/button-11.jpg)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-11.jpg)
 
 ```html
 <view class="position-relative p-5">

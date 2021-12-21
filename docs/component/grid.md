@@ -5,7 +5,7 @@ class的方式使用
 
 ## 示例-1
 
-![mp-cu](/images/grid/grid-1.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/grid/grid-1.png)
 
 ```html
 <view class="ui-grid p-3">
@@ -17,7 +17,7 @@ class的方式使用
 
 ## 示例-2
 
-![mp-cu](/images/grid/grid-2.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/grid/grid-2.png)
 
 ```html
 <view class="ui-grid ui-cols-4 ui-cols-lg-6 p-3">
@@ -30,7 +30,7 @@ class的方式使用
 
 ## 示例-3
 
-![mp-cu](/images/grid/grid-3.png)
+![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/grid/grid-3.png)
 
 ```html
 <view class="ui-grid grid-square ui-cols-6 p-3">
