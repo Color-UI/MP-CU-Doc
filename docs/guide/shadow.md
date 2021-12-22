@@ -56,5 +56,15 @@ ColorUI设定了类名来控制阴影，部分组件也有对应参数来控制�
 
 `.shadow-warp`
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/other/shadow-warp.png)
+<img :src="getImgUrl('other/shadow-warp.png')" class="medium-zoom-image">
 
+
+<script setup>
+function getImgUrl(url) {
+    if(base === '/') {
+        return docImagesUrl.github + url;
+    } else {
+        return docImagesUrl.gitee + url;
+    }
+}
+</script>

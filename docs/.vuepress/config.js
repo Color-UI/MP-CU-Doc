@@ -1,5 +1,6 @@
+var base = '/'; // 码云 那边需要改为 /mp-cu/
 module.exports = {
-    base: '/', // 码云 那边需要改为 /mp-cu/
+    base: base,
     lang: 'zh-CN',
     title: 'MP-CU文档',
     description: 'MP-CU文档，ColorUI 微信原生小程序UI组件库',
@@ -103,6 +104,15 @@ module.exports = {
             '@vuepress/plugin-search', {
                 locales: {placeholder: 'Search'},
                 isSearchable: (page) => page.path !== '/', // 排除首页
+            }
+        ],
+        [
+            'vuepress-plugin-cu-let', {
+                base: base,
+                imgUrl: {
+                    github: 'https://color-ui.github.io/assest/mp-cu-doc/',
+                    gitee: 'https://color-ui.gitee.io/assest/mp-cu-doc/'
+                }
             }
         ]
     ],

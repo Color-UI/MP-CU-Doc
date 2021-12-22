@@ -115,20 +115,19 @@
 
 `.bg-mask-{opacity}` 占用after伪元素的遮罩层
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/background/background1.png)
-
+<img :src="getImgUrl('background/background1.png')" class="medium-zoom-image">
 
 ## 背景图片
 
 `.bg-img` 自适应背景图片
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/background/background2.png)
+<img :src="getImgUrl('background/background2.png')" class="medium-zoom-image">
 
 ## 模糊背景
 
 `.bg-blur` 高斯模糊背景。 (存在兼容性！ios设备和安卓10以上才支持。)
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/background/background3.png)
+<img :src="getImgUrl('background/background3.png')" class="medium-zoom-image">
 
 
 <script setup>
@@ -175,6 +174,13 @@ const themeColor = [
 ];
 const level = ['page', 'box', 'menu'];
 
+function getImgUrl(url) {
+    if(base === '/') {
+        return docImagesUrl.github + url;
+    } else {
+        return docImagesUrl.gitee + url;
+    }
+}
 
 //复制文本
 function copyText(text) {

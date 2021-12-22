@@ -6,11 +6,9 @@ ColorUI2.x 不能直接升级到 ColorUI3.x，因为 ColorUI3.x 是重构版本�
 
 目前不建议 直接把 ColorUI3.x 用于生产环境，当前还是测试版本，并不是正式版本，组件可能会有改动。
 
-
 ## MP-CU
 
 MP = miniprogram，CU = ColorUI, 在注册小程序名字时，又因为其它ColorUI相关的名字被抢注，无法注册，最终取名为MP-CU，意为ColorUI微信原生小程序版本。
-
 
 ## 生态
 
@@ -28,7 +26,8 @@ MP = miniprogram，CU = ColorUI, 在注册小程序名字时，又因为其它Co
 
 ## 演示码
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/mp-cu.jpg)
+<img :src="getImgUrl('mp-cu.jpg')" class="medium-zoom-image">
+
 
 ## 鸣谢
 
@@ -43,3 +42,13 @@ MP-CU 是 [ColorUI](https://color-ui.com/) 授权的项目，采用了 [MIT](htt
 ## 说明
 
 开源，不代表可以无底线的滥用，商用请保留代码里版权声明（代码注释区域内的相关版权信息），如果是开源项目，请加上出处和地址，我们希望，开源的同时，能尊重他人的劳动成果，谢谢支持
+
+<script setup>
+function getImgUrl(url) {
+    if(base === '/') {
+        return docImagesUrl.github + url;
+    } else {
+        return docImagesUrl.gitee + url;
+    }
+}
+</script>

@@ -51,8 +51,7 @@
     </div>
 </div>
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/other/text.png)
-
+<img :src="getImgUrl('other/text.png')" class="medium-zoom-image">
 
 ## 文字截断
 
@@ -179,8 +178,16 @@ const util = [
     { class: 'text-break', info: '单词自动换行', break: 'weilanwl' },
     { class: 'text-nowrap', info: '不自动换行', nowrap: 'ABC to abc ' },
     { class: 'text-price', info: '人民币价格文本', desc: '80.00' }
-]
-        
+];
+
+function getImgUrl(url) {
+    if(base === '/') {
+        return docImagesUrl.github + url;
+    } else {
+        return docImagesUrl.gitee + url;
+    }
+}
+
 //复制文本
 function copyText(text) {
     let createInput = document.createElement('textarea');
