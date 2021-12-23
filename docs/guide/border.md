@@ -1,8 +1,10 @@
+<div class="mp-cu-doc-theme-content">
+
 # 边框
 
 ColorUI设定了类名来控制边框，部分组件也有对应参数来控制边框，实际上也是通过类名来控制。
 
->为达到高分屏更细的边框，colorui采用的是伪元素定位的方案。有时候没有显示边框，请检查块的定位以及溢出情况。
+>为达到高分屏更细的边框，ColorUI采用的是伪元素定位的方案。有时候没有显示边框，请检查块的定位以及溢出情况。
 
 
 ## 普通边框
@@ -127,4 +129,6 @@ ColorUI设定了类名来控制边框，部分组件也有对应参数来控制�
     <div class="p-3" style="width: 45%;">
         <div class="dashed-shine border-blue p-3">蓝色虚线边框动画</div>
     </div>
+</div>
+
 </div>

@@ -1,11 +1,11 @@
+<div class="mp-cu-doc-view">
+<div class="mp-cu-doc">
+
 # 栅栏
 
 class的方式使用
 
-
 ## 示例-1
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/grid/grid-1.png)
 
 ```html
 <view class="ui-grid p-3">
@@ -17,8 +17,6 @@ class的方式使用
 
 ## 示例-2
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/grid/grid-2.png)
-
 ```html
 <view class="ui-grid ui-cols-4 ui-cols-lg-6 p-3">
     <view class="ui-item" wx:for="{{12}}" wx:key="index">
@@ -27,10 +25,7 @@ class的方式使用
 </view>
 ```
 
-
 ## 示例-3
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/grid/grid-3.png)
 
 ```html
 <view class="ui-grid grid-square ui-cols-6 p-3">
@@ -39,3 +34,11 @@ class的方式使用
     </view>
 </view>
 ```
+
+</div>
+<div class="mp-cu-doc-image" style="max-height: 780px;">
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/grid.jpg)
+
+</div>
+</div>

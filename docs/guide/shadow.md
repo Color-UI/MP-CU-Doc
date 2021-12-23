@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 阴影
 
 ColorUI设定了类名来控制阴影，部分组件也有对应参数来控制阴影，实际上也是通过类名来控制。可以通过组合类名来表达多样性。
@@ -56,15 +58,6 @@ ColorUI设定了类名来控制阴影，部分组件也有对应参数来控制�
 
 `.shadow-warp`
 
-<img :src="getImgUrl('other/shadow-warp.png')" class="medium-zoom-image">
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/other/shadow-warp.png)
 
-
-<script setup>
-function getImgUrl(url) {
-    if(base === '/') {
-        return docImagesUrl.github + url;
-    } else {
-        return docImagesUrl.gitee + url;
-    }
-}
-</script>
+</div>

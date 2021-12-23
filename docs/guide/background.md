@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 背景颜色
 
 容器的背景表现,class控制。一些组件包含了通用属性 `bg` 也是用的这些类。
@@ -115,20 +117,21 @@
 
 `.bg-mask-{opacity}` 占用after伪元素的遮罩层
 
-<img :src="getImgUrl('background/background1.png')" class="medium-zoom-image">
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/background/background1.png)
 
 ## 背景图片
 
 `.bg-img` 自适应背景图片
 
-<img :src="getImgUrl('background/background2.png')" class="medium-zoom-image">
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/background/background2.png)
 
 ## 模糊背景
 
 `.bg-blur` 高斯模糊背景。 (存在兼容性！ios设备和安卓10以上才支持。)
 
-<img :src="getImgUrl('background/background3.png')" class="medium-zoom-image">
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/background/background3.png)
 
+</div>
 
 <script setup>
 const color = [

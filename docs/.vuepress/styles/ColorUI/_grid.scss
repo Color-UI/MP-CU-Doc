@@ -3,10 +3,10 @@
 @mixin make_col($screen) {
     @for $i from 1 through 12 {
         .ui-col-#{$screen}-#{$i} {
-            width: #{100% / 12 * $i};
+            width: calc(100% / 12 * #{$i});
         }
         .ui-cols-#{$screen}-#{$i} .ui-item {
-            width: #{100% / $i};
+            width: calc(100% / #{$i});
         }
     }
 }
@@ -61,12 +61,12 @@
 }
 @for $i from 1 through 12 {
     .ui-cols-#{$i} .ui-item {
-        width: #{100% / $i};
+        width: calc(100% / #{$i});
     }
 }
 @for $i from 1 through 12 {
     .ui-col-#{$i} {
-        width: #{100% / 12 * $i};
+        width: calc(100% / 12 * #{$i});
     }
 }
 // 小屏

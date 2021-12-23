@@ -1,18 +1,17 @@
+<div class="mp-cu-doc-view">
+<div class="mp-cu-doc">
+
 # 按钮
 
 原生组件，并未封装，只是提供了样式 
 
 ## 默认
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-1.jpg)
-
 ```html
 <button class="ui-btn">按钮</button>
 ```
 
 ## 颜色
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-2.jpg)
 
 ```html
 <view class="p-3 flex-between">
@@ -37,8 +36,6 @@
 
 ## 尺寸
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-3.jpg)
-
 ```html
 <view class="p-3 flex-between">
     <button class="ui-btn sm">按钮</button>
@@ -49,8 +46,6 @@
 ```
 
 ## 形状
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-4.jpg)
 
 ```html
 <view class="p-3 flex-between">
@@ -66,8 +61,6 @@
 
 ## 块状
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-5.jpg)
-
 ```html
 <view class="p-3">
     <button class="ui-btn block">按钮</button>
@@ -75,8 +68,6 @@
 ```
 
 ## 阴影
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-6.jpg)
 
 ```html
 <view class="p-4">
@@ -94,8 +85,6 @@
 ```
 
 ## 边框
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-7.jpg)
 
 ```html
 <view class="p-3 flex-between">
@@ -143,8 +132,6 @@
 
 ## 无效
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-8.jpg)
-
 ```html
 <view class="p-3 flex-between">
     <button class="ui-btn" disabled>按钮</button>
@@ -155,8 +142,6 @@
 ```
 
 ## 图标
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-9.jpg)
 
 ```html
 <view class="p-3">
@@ -195,8 +180,6 @@
 
 ## 加载
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-10.jpg)
-
 ```html
 <view class="p-3">
     <button class="ui-btn block">
@@ -225,10 +208,16 @@
 
 ## 无样式
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/button/button-11.jpg)
-
 ```html
 <view class="position-relative p-5">
     <button class="ui-btn none-style">sx</button>
 </view>
 ```
+
+</div>
+<div class="mp-cu-doc-image" style="max-height: inherit;">
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/button.jpg)
+
+</div>
+</div>

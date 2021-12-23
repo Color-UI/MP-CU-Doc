@@ -3,8 +3,7 @@
 
 .text {
     @each $class, $value in $fontsize {
-        &-#{$class},
-        &-#{$value / 2} {
+        &-#{$class}, &-#{$value} {
             font-size: calc(#{$value}px + var(--textSize));
         }
     }

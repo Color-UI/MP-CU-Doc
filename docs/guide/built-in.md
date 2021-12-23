@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 内置
 
 内置了一些变量、方法函数。
@@ -127,3 +129,4 @@ ColorUI3.x 微信小程序版本因为所有页面都需要包裹 `ui-sys` ，�
 在需要设置字号等级的地方调用 `this._setText()` 注意this 作用域的问题。
 :::
 
+</div>

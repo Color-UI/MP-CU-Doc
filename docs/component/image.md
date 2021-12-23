@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 图片
 
 图片组件
@@ -10,7 +12,7 @@
 
 ## 示例
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/image/image.jpg)
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/image/image.jpg)
 
 ```html
 <ui-img preview ui="radius border" src="xxx" urls="{{['xxx','xxx']}}" current="0"/>
@@ -30,3 +32,5 @@
 | width | String | - | - | 宽度 |
 | height | String | - | - | 高度 |
 | local | Boolean | - | false | 是否为本地图片 |
+
+</div>

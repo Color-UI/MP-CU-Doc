@@ -1,3 +1,6 @@
+<div class="mp-cu-doc-view">
+<div class="mp-cu-doc">
+
 # 卡片
 
 ```json
@@ -7,8 +10,6 @@
 ```
 
 ## 示例-1
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/card/card-1.png)
 
 ```html
 <ui-card ui="shadow m-3 radius" imgHeight="auto" img="img" title="title" isTag>
@@ -23,8 +24,6 @@
 
 ## 示例-2
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/card/card-2.png)
-
 ```html
 <ui-card ui="shadow m-3 radius" imgHeight="180rpx" img="img" title="title" desc="desc" isTag>
     <view slot="tag" class="ui-tag bg-mask-20 radius-lr">
@@ -38,8 +37,6 @@
 
 
 ## 示例-3
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/card/card-3.png)
 
 ```html
 <ui-card ui="shadow m-3 radius" img="img" title="title" desc="desc" fixedTitle/>
@@ -68,3 +65,11 @@
 | 默认 | 内容插槽 |
 | title | 标题区域插槽 |
 | tag | 标签区域插槽 |
+
+</div>
+<div class="mp-cu-doc-image" style="max-height: 1640px;">
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/card.jpg)
+
+</div>
+</div>

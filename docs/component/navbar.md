@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 导航栏
 
 自定义顶部导航栏,适用于所有页面,小程序有返回胶囊样式可以使用。
@@ -14,7 +16,8 @@
 
 ## 仅图标
 
-<img class="navbar-images radius border" src='https://color-ui.gitee.io/assest/mp-cu-doc/other/ozgly.jpg'/>
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/other/ozgly.jpg)
+
 
 ```html
 <ui-navbar/>
@@ -22,7 +25,7 @@
 
 ## 返回文本
 
-<img class="navbar-images radius border" src='https://color-ui.gitee.io/assest/mp-cu-doc/other/i4ux8.jpg'/>
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/other/i4ux8.jpg)
 
 ```html
 <ui-navbar backtext="text"/>
@@ -30,7 +33,7 @@
 
 ## 有阴影
 
-<img class="navbar-images radius border" src='https://color-ui.gitee.io/assest/mp-cu-doc/other/7i87w.jpg'/>
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/other/7i87w.jpg)
 
 ```html
 <ui-navbar shadow/>
@@ -67,3 +70,4 @@
 | center | 自定义bar的中间内容 |
 | right | 自定义bar的右边内容,排序从右开始的弹性布局,小程序端会自动生成胶囊的安全区域。做小程序及跨端的时候right表现的不是很理想，请以项目实际情况自定义right部分 |
 
+</div>

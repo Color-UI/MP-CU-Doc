@@ -1,3 +1,6 @@
+<div class="mp-cu-doc-view">
+<div class="mp-cu-doc">
+
 # 加载
 
 ```json
@@ -7,8 +10,6 @@
 ```
 
 ## 示例
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/loading/loading.png)
 
 ```html
 <ui-loading/>
@@ -35,9 +36,6 @@
 ```
 
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/loading/loading.gif)
-
-
 ## 参数
 
 |  参数  |  类型  |  可选值  |  默认值  |       说明       |
@@ -47,3 +45,11 @@
 | img | String | - | - | 图片 |
 | color | String/Boolean | - | - | 颜色 |
 | isSlot | Boolean | - | false | 默认插槽 |
+
+</div>
+<div class="mp-cu-doc-image" style="max-height: inherit;">
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/loading.jpg)
+
+</div>
+</div>

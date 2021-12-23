@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 配置
 
 ## 目录结构
@@ -228,9 +230,11 @@ export const colorUI = new ColorUI({
 ` "setMain" `,
 ` "setText" `,
 ` "_toHome" `,
+` "_toPath" `,
 ` "_backPage" `,
 ` "sys_isFirstPage"`
 ]
+
 
 ```javascript
 //引入框架的方法函数库
@@ -257,4 +261,4 @@ export const colorUI = new ColorUI({
 配置的函数方法，都会在`page`，`components`里面注册在相应位置，您只需要调用即可
 :::
 
-
+</div>

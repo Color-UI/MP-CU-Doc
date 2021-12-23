@@ -1,3 +1,6 @@
+<div class="mp-cu-doc-view">
+<div class="mp-cu-doc">
+
 # 头像
 
 头像组件,可以适配文字,图片以及图标。
@@ -13,8 +16,6 @@
 
 `radius`, `round`, `ellipse` 提供圆角,圆形,和超椭圆形状。
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar.png)
-
 ```html
 <ui-avatar ui="radius"/>
 <ui-avatar ui="round"/>
@@ -23,8 +24,6 @@
 
 
 ## 大小
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar1.png)
 
 ```html
 <ui-avatar ui="ellipse sm">sm</ui-avatar>
@@ -37,8 +36,6 @@
 
 ## 背景
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar2.png)
-
 ```html
 <ui-avatar ui="ellipse" bg="bg-orange">Wg</ui-avatar>
 <ui-avatar ui="ellipse" bg="bg-red">Wxm</ui-avatar>
@@ -50,8 +47,6 @@
 
 ## 图像
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar3.png)
-
 ```html
 <ui-avatar ui="radius" src="/static/avatar/1001.jpg"/>
 <ui-avatar ui="round" src="/static/avatar/1002.jpg"/>
@@ -60,8 +55,6 @@
 
 ## 图标
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar4.png)
-
 ```html
 <ui-avatar ui="radius" icon="cicon-android"/>
 <ui-avatar ui="round" icon="cicon-link"/>
@@ -69,8 +62,6 @@
 ```
 
 ## 角标
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar5.png)
 
 ```html
 <ui-avatar ui="radius xl" src="/static/avatar/1001.jpg">
@@ -100,8 +91,6 @@
 
 ## 多头像层叠
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar6.png)
-
 ```html
 <ui-avatar-stack>
     <ui-avatar ui="round xl" src="/static/avatar/1001.jpg" stack first/>
@@ -109,8 +98,6 @@
     <ui-avatar ui="round xl" src="/static/avatar/1003.jpg" stack/>
 </ui-avatar-stack>
 ```
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar7.png)
 
 ```html
 <ui-avatar-stack reverse>
@@ -121,8 +108,6 @@
 ```
 
 ## 头像组
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/avatar/avatar8.png)
 
 ```html
 <view class="p-3 flex align-center">
@@ -200,3 +185,10 @@ srcData9: [
 | ui | String | - | - | 其它样式 |
 | reverse | Boolean | - | false | 多头像反向层叠 |
 
+</div>
+<div class="mp-cu-doc-image" style="max-height: inherit;">
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/avatar.jpg)
+
+</div>
+</div>

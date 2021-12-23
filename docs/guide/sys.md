@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 页面
 
 ColorUI提供 `<ui-sys> </ui-sys>` 组件来控制页面的表现，内嵌ColorUI的交互反馈(模态框，轻提示等)，主题样式，页面加载等，是每个页面必须有的组件。
@@ -52,3 +54,4 @@ ui-sys 的参数如下
 | tabbar | Boolean | - | false | 是否开启tabbar |
 | footer | Boolean | - | true | 是否开启footer |
 
+</div>

@@ -1,3 +1,6 @@
+<div class="mp-cu-doc-view">
+<div class="mp-cu-doc">
+
 # 浮动
 
 ```json
@@ -7,8 +10,6 @@
 ```
 
 ## 示例
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/other/fixed.png)
 
 ```html
 <ui-fixed bg="bg-mask-20" scrollTop="0">
@@ -38,3 +39,11 @@
 | noFixed | Boolean | - | false | - |
 | clickTo | Boolean | - | false | - |
 | scrollTop | Number/String | - | 0 | 页面滚动位置 |
+
+</div>
+<div class="mp-cu-doc-image" style="max-height: inherit;">
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/fixed.jpg)
+
+</div>
+</div>

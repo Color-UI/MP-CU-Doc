@@ -1,3 +1,6 @@
+<div class="mp-cu-doc-view">
+<div class="mp-cu-doc">
+
 # 菜单
 
 ```json
@@ -8,8 +11,6 @@
 ```
 
 ## 示例
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/menu/menu.png)
 
 ```html
 <ui-menu ui="mt-5 border radius">
@@ -59,3 +60,11 @@
 | arrow | Boolean/String | - | false | 右边箭头 |
 | isIcon | Boolean | - | false | 图标插槽 |
 | isAction | Boolean | - | false | 右边内容插槽 |
+
+</div>
+<div class="mp-cu-doc-image" style="max-height: inherit;">
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/menu.jpg)
+
+</div>
+</div>

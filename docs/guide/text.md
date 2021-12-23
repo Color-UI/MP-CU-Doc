@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 文本字体
 
 文本字体样式,Class控制。适用于任何组件元素。
@@ -51,7 +53,8 @@
     </div>
 </div>
 
-<img :src="getImgUrl('other/text.png')" class="medium-zoom-image">
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/other/text.png)
+
 
 ## 文字截断
 
@@ -113,6 +116,7 @@
     </div>
 </div>
 
+</div>
 
 <script setup>
 const size = [

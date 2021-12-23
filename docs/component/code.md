@@ -1,3 +1,6 @@
+<div class="mp-cu-doc-view">
+<div class="mp-cu-doc">
+
 # 代码
 
 代码组件是用来展示计算机代码文本的一个组件。
@@ -14,8 +17,6 @@
 
 `<ui-code></ui-code>`
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/code/code-1.jpg)
-
 ```html
 <ui-code content="<ui-code>...</ui-code> \n<ui-code content='...'></ui-code>"/>
 ```
@@ -26,8 +27,6 @@
 
 代码高亮是使用了 `PrismJS` 暗色主题的高亮颜色是亮色主题的反转。
 
-
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/code/code-2.jpg)
 
 ```html
 <ui-code tag="pre" lang="html" content="<ui-code>...</ui-code> \n<ui-code content='...'></ui-code>"/>
@@ -55,3 +54,11 @@
 |  参数  |       说明       |
 |----------|----------|
 | 默认 | 行内代码的内容 |
+
+</div>
+<div class="mp-cu-doc-image" style="max-height: inherit;">
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/code.jpg)
+
+</div>
+</div>

@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 主题
 
 ColorUI支持多款配色的主题方案,也支持根据系统来适配暗色主题。
@@ -26,8 +28,7 @@ ColorUI支持多款配色的主题方案,也支持根据系统来适配暗色主
 在安卓上，切换系统主题时，会重载小程序，具体原因，[参考微信官方说明](https://developers.weixin.qq.com/community/develop/doc/000a88c66f00183d414c9879451400)
 :::
 
-![mp-cu](https://color-ui.gitee.io/assest/mp-cu-doc/other/theme.png)
-
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/other/theme.png)
 
 ## 参数
 
@@ -35,3 +36,5 @@ ColorUI支持多款配色的主题方案,也支持根据系统来适配暗色主
 |----------|----------|----------|----------|----------|
 | radius | String,Boolean | - | - | 是否圆角,可选sm/lg |
 | border | Boolean | - | - | 是否显示下划线 |
+
+</div>

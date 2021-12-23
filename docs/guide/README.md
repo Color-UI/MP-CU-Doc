@@ -1,3 +1,5 @@
+<div class="mp-cu-doc-theme-content">
+
 # 介绍
 
 `MP-CU` 是为 `ColorUI3.x` 适配的微信原生小程序版本，如果您不需要微信原生小程序版本，你也可以使用 [ColorUI3.x](https://github.com/weilanwl/coloruiBeta) 原版（只支持`uni-app`），来开发项目。
@@ -26,8 +28,7 @@ MP = miniprogram，CU = ColorUI, 在注册小程序名字时，又因为其它Co
 
 ## 演示码
 
-<img :src="getImgUrl('mp-cu.jpg')" class="medium-zoom-image">
-
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/mp-cu.jpg)
 
 ## 鸣谢
 
@@ -43,12 +44,36 @@ MP-CU 是 [ColorUI](https://color-ui.com/) 授权的项目，采用了 [MIT](htt
 
 开源，不代表可以无底线的滥用，商用请保留代码里版权声明（代码注释区域内的相关版权信息），如果是开源项目，请加上出处和地址，我们希望，开源的同时，能尊重他人的劳动成果，谢谢支持
 
+
+## :sparkling_heart: 支持这个项目
+
+我们尽己所能地进行开源，并且我们尽量回复每个在使用项目时需要帮助的人。
+
+很明显，这需要时间，但你可以免费享受这些。
+
+然而, 如果你正在使用这个项目并感觉良好，或只是想要支持我们继续开发，你可以通过如下方式：
+
+<div class="no-external-link-icon">
+
+- 在你的 开源项目 中使用 MP-CU 时，链接指向这里[https://github.com/Color-UI/MP-CU](https://github.com/Color-UI/MP-CU) :D
+- Star 并 分享这个项目 :rocket:
+- [![paypal.me/iZaiZaiA](/images/paypal.svg)](https://paypal.me/iZaiZaiA) - 你可以通过 [PayPal](https://paypal.me/iZaiZaiA)、<span class='mp-cu-pay' @click='thanksShow()'>微信、支付宝</span> 打赏. 我们可能会买一杯 ~~咖啡~~ 茶. :tea:
+
+<div class='mp-cu-pay-img' v-show="show">
+
+![thanks](https://colorui-assest.vercel.app/mp-cu-doc/thanks.jpg)
+
+</div>
+
+谢谢！ :heart:
+
+</div>
+</div>
+
 <script setup>
-function getImgUrl(url) {
-    if(base === '/') {
-        return docImagesUrl.github + url;
-    } else {
-        return docImagesUrl.gitee + url;
-    }
+import { ref } from "vue";
+const show = ref(false);
+function thanksShow() {
+    show.value = !show.value;
 }
 </script>

@@ -115,3 +115,108 @@ html.dark {
 .medium-zoom-image {
     margin: 10px 0;
 }
+
+.no-external-link-icon {
+    ul, ol {
+        margin-left: 40px;
+    }
+    .external-link-icon {
+        display: none;
+    }
+    ul li img {
+        position: relative;
+        top: 4px;
+    }
+}
+.theme-default-content:not(.custom) {
+    max-width: inherit;
+}
+.mp-cu-doc-view {
+    position: relative;
+    display: flex;
+    .mp-cu-doc {
+        position: relative;
+        max-width: 70%;
+        flex: 1;
+    }
+    .mp-cu-doc-image {
+        position: relative;
+        width: 420px;
+        margin-left: 2.5rem;
+        margin-top: 60px;
+        border-radius: 10px;
+        max-height: 660px;
+        overflow-y: auto;
+        img {
+            max-width: inherit;
+            width: 100%;
+        }
+        &::-webkit-scrollbar {
+            width: 0 !important;
+            height: 0 !important;
+        }
+    }
+}
+.mp-cu-doc-theme-content {
+    max-width: var(--content-width);
+    margin: 0 auto;
+}
+
+@media (max-width: 959px) {
+    .theme-default-content:not(.custom) {
+        padding: 2rem;
+    }
+    .mp-cu-doc-view {
+        display: block;
+        .mp-cu-doc {
+            flex: inherit;
+            max-width: 100%;
+        }
+        .mp-cu-doc-image {
+            width: auto;
+            margin-left: 0;
+            margin-top: 0;
+            border-radius: 0;
+            max-height: inherit;
+            overflow-y: auto;
+        }
+    }
+}
+
+@media (max-width: 419px) {
+    .theme-default-content:not(.custom) {
+        padding: 1.5rem;
+    }
+    .theme-default-content div[class*=language-] {
+        margin: 0.85rem 0;
+        border-radius: 6px;
+    }
+    .mp-cu-doc-view {
+        display: block;
+        .mp-cu-doc {
+            flex: inherit;
+            max-width: 100%;
+        }
+        .mp-cu-doc-image {
+            width: auto;
+            margin-left: 0;
+            margin-top: 0;
+            border-radius: 0;
+            max-height: inherit;
+            overflow-y: auto;
+        }
+    }
+}
+.mp-cu-pay {
+    font-weight: 500;
+    color: var(--c-text-accent);
+    text-decoration: none;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+.mp-cu-pay-img {
+    text-align: center;
+    img {
+        width: 340px;
+    }
+}
