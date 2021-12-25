@@ -8,31 +8,32 @@ ColorUI2.x 不能直接升级到 ColorUI3.x，因为 ColorUI3.x 是重构版本�
 
 目前不建议 直接把 ColorUI3.x 用于生产环境，当前还是测试版本，并不是正式版本，组件可能会有改动。
 
+## 演示码
+
+![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/mp-cu.jpg)
+
+
 ## MP-CU
 
 MP = miniprogram，CU = ColorUI, 在注册小程序名字时，又因为其它ColorUI相关的名字被抢注，无法注册，最终取名为MP-CU，意为ColorUI微信原生小程序版本。
 
 ## 生态
 
-- [ColorUI - uni-app](https://github.com/weilanwl/coloruiBeta) (主要版本， 推荐使用)
+- [coloruiBeta](https://github.com/weilanwl/coloruiBeta) (主要版本， 推荐使用)
 - [MP-CU](https://github.com/Color-UI/MP-CU) - (微信原生小程序版)
-
 
 ## 社区
 
 - [ColorUI官方社区网站](https://color-ui.com/)
+- H5版演示地址：[beta3.color-ui.com](https://beta3.color-ui.com/)  (uni-app版)
+- 备用文档地址：[mp-cu.izaizai.cn](https://mp-cu.izaizai.cn/)  (挂在[vercel](https://vercel.com/)上的)
+
+交流群
+
 - QQ群①：240787041 (已满)
 - QQ群②：760786796 (已满)
 - QQ群③：596179746 (已满)
 - QQ群④：368471882
-
-## 演示码
-
-![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/mp-cu.jpg)
-
-## 鸣谢
-
-感谢 【文晓港(ColorUI作者 / [@weilanwl](https://github.com/weilanwl))】, 【胖虎([@bypanghu](https://github.com/bypanghu))】
 
 
 ## 版权
@@ -66,6 +67,12 @@ MP-CU 是 [ColorUI](https://color-ui.com/) 授权的项目，采用了 [MIT](htt
 </div>
 
 谢谢！ :heart:
+
+
+## 鸣谢
+
+谢谢 :heart: 【文晓港(ColorUI作者 / [@weilanwl](https://github.com/weilanwl))】, 【胖虎([@bypanghu](https://github.com/bypanghu))】
+
 
 </div>
 </div>

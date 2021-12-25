@@ -45,8 +45,11 @@ module.exports = {
                 ]
             },
             {
-                text: 'GitHub',
-                link: 'https://github.com/Color-UI/MP-CU'
+                text: '下载源码',
+                children: [
+                    {text:'GitHub 仓库', link: 'https://github.com/Color-UI/MP-CU'},
+                    {text:'Gitee 仓库', link: 'https://gitee.com/color-ui/MP-CU'}
+                ],
             },
         ],
         sidebar: {
@@ -106,6 +109,7 @@ module.exports = {
                         '/laboratory/README.md',
                         '/laboratory/fixed-tools.md',
                         '/laboratory/dot-tag.md',
+                        '/laboratory/layout.md',
                     ]
                 },
             ],
