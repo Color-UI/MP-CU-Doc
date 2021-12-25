@@ -91,6 +91,21 @@ module.exports = {
                         '/component/toast.md',
                         '/component/tab.md',
                         '/component/swiper.md',
+                        '/component/steps.md',
+                        '/component/input.md',
+                        '/component/radio.md',
+                        '/component/checkbox.md',
+                        '/component/switch.md',
+                    ]
+                },
+            ],
+            '/laboratory/': [
+                {
+                    text: '实验室',
+                    children: [
+                        '/laboratory/README.md',
+                        '/laboratory/fixed-tools.md',
+                        '/laboratory/dot-tag.md',
                     ]
                 },
             ],
