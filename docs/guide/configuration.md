@@ -7,6 +7,9 @@
 默认的MP-CU项目，目录结构是下面这样的。
 
 ```
+├─ config (MP-CU配置文件)
+│  ├─ ColorUI.js (UI框架核心配置文件)
+│  └─ mp-sdk.js  (扩展方法函数配置)
 ├─ mp-cu (UI组件库核心文件夹)
 │  ├─ colorUI
 │  ├─ lib
@@ -14,20 +17,19 @@
 │  └─ main.js
 ├─ mp-sdk (额外扩展的文件夹)
 │  ├─ components
-│  ├─ icon
+│  ├─ icon  (扩展图标)
 │  │  └─ doc.scss
-│  ├─ js
-│  │  ├─ api.js
-│  │  └─ tools.js
-│  └─ wxs
-│     └─ tools.wxs
+│  ├─ lib   (扩展方法函数库)
+│  │  └─ ...
+│  ├─ wxs
+│  │  └─ tools.wxs
+│  └─ index.js
 ├─ packageA (分包A = 模板模块)
 ├─ packageB (分包B = 实验室模块)
 ├─ pages
 ├─ static
 ├─ app.scss
 ├─ app.js
-├─ config.js (MP-CU用户配置文件)
 ├─ app.json
 └─ project.config.json
 ```
@@ -63,19 +65,19 @@ MP-CU需要scss的支持，在根目录下，`project.config.json` 配置文件�
 
 ## 配置文件
 
-您可单独设置一个 `config.js` 里面配置相关信息，然后暴露方法给 `app.js` 在全局引用
+您可单独设置一个 `config.js` 里面配置相关信息，然后暴露方法给 `app.js` 在全局引用，默认在 `config/ColorUI.js`
 
 ```javascript
-import { ColorUi } from './config'
-App({  
-    ColorUi,        //挂载到app上，此步骤必须要有！
+import { colorUI } from './config/ColorUI'
+App({
+    colorUI,        //挂载到app上，此步骤必须要有！
     onLaunch() {
         
     }
 })
 ```
 
-`config.js` 配置文件需要您定义成类似以下的内容
+`config.js` 配置文件需要您定义成类似以下的内容,  默认在 `config/ColorUI.js`
 > 由于微信小程序无法使用vue.key来全局命名变量，导致习惯vue的用户很不习惯，而且微信内部并不存在像vuex这样的状态管理机制，为满足上述想法，colorUI  MP-CU 为您定制了一套自有的扩展包，你可以在全局导入变量、函数、方法，同时您也可以定义您自己的状态（` vuex `）.
 > 内置的vuex 渲染引擎参考了 [wxMiniStore](https://github.com/xiaoyao96/wxMiniStore) 的项目。
 
@@ -104,8 +106,7 @@ export const colorUI = new ColorUI({
 
 ## 配置说明
 
-我们不建议您直接修改mp-cu文件夹下的相关文件，以免后续升级更新时，被覆盖，所以，建议在外部`config.js`里配置。
-
+我们不建议您直接修改 `mp-cu` 文件夹下的相关文件，以免后续升级更新时，被覆盖，所以，建议在外部`config/ColorUI.js`里配置。
 
 ### config
 
@@ -207,7 +208,7 @@ export const colorUI = new ColorUI({
 })
 ```
 
-您在 `config.js` 里面配置的data数据，也可以在页面的data里面访问到，ColorUI将配置的数据定义到$cuData属性里面中了。
+您在 `config/ColorUI.js` 里面配置的data数据，也可以在页面的data里面访问到，ColorUI将配置的数据定义到$cuData属性里面中了。
 
 ::: tip
  配置的data内容你可以在 `page`，`components` 中通过 `this.data.$cuData` 获得

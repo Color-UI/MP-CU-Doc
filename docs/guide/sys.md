@@ -54,4 +54,10 @@ ui-sys 的参数如下
 | tabbar | Boolean | - | false | 是否开启tabbar |
 | footer | Boolean | - | true | 是否开启footer |
 
+
+::: tip
+tabbar 非原生 tabbar，当 sys 内开启 tabbar 后，原生的 tabbar 将会被隐藏
+:::
+
+
 </div>

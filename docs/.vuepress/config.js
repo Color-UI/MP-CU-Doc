@@ -114,6 +114,21 @@ module.exports = {
                     ]
                 },
             ],
+            '/api/': [
+                {
+                    text: 'Api',
+                    children: [
+                        '/api/README.md',
+                        '/api/request.md',
+                        '/api/dataType.md',
+                        '/api/random.md',
+                        '/api/date.md',
+                        '/api/array.md',
+                        '/api/object.md',
+                        '/api/tools.md'
+                    ]
+                },
+            ],
             '/update/': [
                 {
                     text: '更新日志',
