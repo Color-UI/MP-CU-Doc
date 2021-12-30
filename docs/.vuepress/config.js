@@ -110,6 +110,7 @@ module.exports = {
                         '/laboratory/fixed-tools.md',
                         '/laboratory/dot-tag.md',
                         '/laboratory/layout.md',
+                        '/laboratory/stepper.md',
                     ]
                 },
             ],
