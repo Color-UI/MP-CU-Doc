@@ -66,7 +66,8 @@ module.exports = {
                         '/guide/text.md',
                         '/guide/icon.md',
                         '/guide/shadow.md',
-                        '/guide/border.md'
+                        '/guide/border.md',
+                        '/guide/style.md'
                     ]
                 },
             ],
