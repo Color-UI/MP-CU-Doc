@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 数组操作
+# 数组操作 isArr
 
 数组操作，可使用 `colorUISdk.isArr.xxx()`
 

@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 导航栏
+# 导航栏 ui-navbar
 
 自定义顶部导航栏,适用于所有页面,小程序有返回胶囊样式可以使用。
 

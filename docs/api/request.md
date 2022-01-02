@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 请求
+# 请求 request
 
 发起请求可使用 `colorUISdk.request()`
 

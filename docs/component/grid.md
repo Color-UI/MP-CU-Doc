@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 栅栏
+# 栅栏 ui-grid
 
 class的方式使用
 

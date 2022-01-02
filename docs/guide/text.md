@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 文本字体
+# 文本字体 text
 
 文本字体样式,Class控制。适用于任何组件元素。
 
@@ -118,7 +118,14 @@
 
 </div>
 
+<div class="mp-cu-toast" :class="isToast?'show':''">
+    <div class="text">复制成功</div>
+</div>
+
 <script setup>
+import { ref } from "vue";
+const isToast = ref(false);
+
 const size = [
     { class: 'text-xs', size: 10, info: '说明文本，标签文字或关注度低的文字', tag: '组件库' },
     { class: 'text-sm', size: 12, info: '页面辅助信息，次级内容等', desc: '@weilanwl.com by:color-ui.com' },
@@ -201,5 +208,13 @@ function copyText(text) {
     document.execCommand('Copy');
     createInput.className = 'createInput';
     createInput.style.display = 'none';
+    toastShow();
 };
+
+function toastShow() {
+    isToast.value = true;
+    window.setTimeout(function() {
+      isToast.value = false;
+    },1000);
+}
 </script>

@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 按钮
+# 按钮 ui-btn
 
 原生组件，并未封装，只是提供了样式 
 

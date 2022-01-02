@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 加载
+# 加载 ui-loading
 
 ```json
 "usingComponents": {

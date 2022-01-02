@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 选项卡
+# 选项卡 ui-tab
 
 ```json
 "usingComponents": {

@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 点标签
+# 点标签 dot-tag
 
 引用组件，请参考[说明](/laboratory/)文档，下面的引入只是作为演示，实际引入路径，请根据您的项目架构更改。
 

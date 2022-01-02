@@ -2,7 +2,17 @@
 
 # MP-CU 更新日志
 
-当前版本：`Beta v3.3.0`
+当前版本：`Beta v3.3.1`
+
+## Beta v3.3.1
+
+##### 2022-01-04 23:00
+
+- 实验室 新增 `ui-notify` 消息提示组件，[文档](/laboratory/notify.md)
+- 实验室 新增 `ui-divider` 分割线组件，[文档](/laboratory/divider.md)
+- 优化文档网站
+
+---
 
 ## Beta v3.3.0
 

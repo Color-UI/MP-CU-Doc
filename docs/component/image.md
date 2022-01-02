@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 图片
+# 图片 ui-img
 
 图片组件
 

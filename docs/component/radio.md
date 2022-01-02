@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 单选框
+# 单选框 ui-radio
 
 ```json
 "usingComponents": {

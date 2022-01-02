@@ -112,6 +112,8 @@ module.exports = {
                         '/laboratory/dot-tag.md',
                         '/laboratory/layout.md',
                         '/laboratory/stepper.md',
+                        '/laboratory/notify.md',
+                        '/laboratory/divider.md',
                     ]
                 },
             ],

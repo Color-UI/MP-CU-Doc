@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 字体图标
+# 字体图标 icon
 
 ## 系统图标
 
@@ -35,7 +35,14 @@
 
 </div>
 
+<div class="mp-cu-toast" :class="isToast?'show':''">
+    <div class="text">复制成功</div>
+</div>
+
 <script setup>
+import { ref } from "vue";
+const isToast = ref(false);
+
 const list = [
     'home','home-o','search','arrow','checkbox','checkbox-o','box','round','check','check-round','check-round-o','more',
     'close','close-round','close-round-o','edit','info','info-o','warn','warn-o','waiting','waiting-o','delete','delete-o',
@@ -407,5 +414,12 @@ function copyText(text) {
     document.execCommand('Copy');
     createInput.className = 'createInput';
     createInput.style.display = 'none';
+    toastShow();
 };
+function toastShow() {
+    isToast.value = true;
+    window.setTimeout(function() {
+      isToast.value = false;
+    },1000);
+}
 </script>

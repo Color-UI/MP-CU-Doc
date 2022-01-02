@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 开关
+# 开关 ui-switch
 
 ```json
 "usingComponents": {

@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 对象操作
+# 对象操作 isObj
 
 对象操作，可使用 `colorUISdk.isObj.xxx()`
 

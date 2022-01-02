@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 模态框
+# 模态框 ui-modal
 
 ```json
 "usingComponents": {

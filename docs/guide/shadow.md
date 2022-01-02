@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 阴影
+# 阴影 shadow
 
 ColorUI设定了类名来控制阴影，部分组件也有对应参数来控制阴影，实际上也是通过类名来控制。可以通过组合类名来表达多样性。
 

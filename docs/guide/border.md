@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 边框
+# 边框 border
 
 ColorUI设定了类名来控制边框，部分组件也有对应参数来控制边框，实际上也是通过类名来控制。
 

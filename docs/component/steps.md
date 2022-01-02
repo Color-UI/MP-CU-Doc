@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 步骤条
+# 步骤条 ui-steps
 
 ```json
 "usingComponents": {

@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 进度条
+# 进度条 ui-progress
 
 进度条组件
 

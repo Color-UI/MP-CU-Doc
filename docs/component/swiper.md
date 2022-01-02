@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 轮播图
+# 轮播图 ui-swiper
 
 ```json
 "usingComponents": {

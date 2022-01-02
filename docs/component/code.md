@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 代码
+# 代码 ui-code
 
 代码组件是用来展示计算机代码文本的一个组件。
 

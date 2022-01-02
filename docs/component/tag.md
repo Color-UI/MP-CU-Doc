@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 标签
+# 标签 ui-tag
 
 标签组件
 

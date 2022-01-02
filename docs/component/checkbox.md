@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 复选框
+# 复选框 ui-checkbox
 
 ```json
 "usingComponents": {

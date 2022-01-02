@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 轻提示
+# 轻提示 $tips
 
 sys组件内置了，一般不需要再次挂载该组件。
 

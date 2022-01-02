@@ -245,7 +245,14 @@
 
 </div>
 
+<div class="mp-cu-toast" :class="isToast?'show':''">
+    <div class="text">复制成功</div>
+</div>
+
 <script setup>
+import { ref } from "vue";
+const isToast = ref(false);
+
 //复制文本
 function copyText(text) {
     let createInput = document.createElement('textarea');
@@ -255,5 +262,12 @@ function copyText(text) {
     document.execCommand('Copy');
     createInput.className = 'createInput';
     createInput.style.display = 'none';
+    toastShow();
 };
+function toastShow() {
+    isToast.value = true;
+    window.setTimeout(function() {
+      isToast.value = false;
+    },1000);
+}
 </script>

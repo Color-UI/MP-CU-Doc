@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 背景颜色
+# 背景颜色 bg
 
 容器的背景表现,class控制。一些组件包含了通用属性 `bg` 也是用的这些类。
 
@@ -133,7 +133,14 @@
 
 </div>
 
+<div class="mp-cu-toast" :class="isToast?'show':''">
+    <div class="text">复制成功</div>
+</div>
+
 <script setup>
+import { ref } from "vue";
+const isToast = ref(false);
+
 const color = [
     { name: 'yellow', value: 'fbbd08', desc: '明黄' },
     { name: 'orange', value: 'f37b1d', desc: '橘橙' },
@@ -194,5 +201,12 @@ function copyText(text) {
     document.execCommand('Copy');
     createInput.className = 'createInput';
     createInput.style.display = 'none';
+    toastShow();
 };
+function toastShow() {
+    isToast.value = true;
+    window.setTimeout(function() {
+      isToast.value = false;
+    },1000);
+}
 </script>

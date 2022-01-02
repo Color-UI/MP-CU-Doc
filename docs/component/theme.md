@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 主题
+# 主题 ui-change-theme
 
 ColorUI支持多款配色的主题方案,也支持根据系统来适配暗色主题。
 

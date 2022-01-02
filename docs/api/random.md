@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 随机字符串
+# 随机字符串 isRandom
 
 随机字符串操作，可使用 `colorUISdk.isRandom.xxx()`
 

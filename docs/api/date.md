@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 日期时间
+# 日期时间 isDate
 
 日期时间操作，可使用 `colorUISdk.isDate.xxx()`
 

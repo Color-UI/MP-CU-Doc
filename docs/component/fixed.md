@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 浮动
+# 浮动 ui-fixed
 
 ```json
 "usingComponents": {

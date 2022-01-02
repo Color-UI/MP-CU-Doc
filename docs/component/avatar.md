@@ -1,7 +1,7 @@
 <div class="mp-cu-doc-view">
 <div class="mp-cu-doc">
 
-# 头像
+# 头像 ui-avatar
 
 头像组件,可以适配文字,图片以及图标。
 

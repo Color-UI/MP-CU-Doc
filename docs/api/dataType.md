@@ -1,6 +1,6 @@
 <div class="mp-cu-doc-theme-content">
 
-# 数据类型
+# 数据类型 isDataType
 
 判断数据类型可使用 `colorUISdk.isDataType.xxx()`
 
