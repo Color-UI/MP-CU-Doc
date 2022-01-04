@@ -6,10 +6,11 @@
 
 ## Beta v3.3.1
 
-##### 2022-01-04 23:00
+##### 2022-01-04 17:00
 
 - 实验室 新增 `ui-notify` 消息提示组件，[文档](/laboratory/notify.md)
 - 实验室 新增 `ui-divider` 分割线组件，[文档](/laboratory/divider.md)
+- 实验室 新增 `ui-search-bar` 搜索栏组件，[文档](/laboratory/search-bar.md)
 - 优化文档网站
 
 ---

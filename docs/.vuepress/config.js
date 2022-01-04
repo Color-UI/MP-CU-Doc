@@ -114,6 +114,7 @@ module.exports = {
                         '/laboratory/stepper.md',
                         '/laboratory/notify.md',
                         '/laboratory/divider.md',
+                        '/laboratory/search-bar.md',
                     ]
                 },
             ],
