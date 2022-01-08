@@ -16,6 +16,18 @@
     .text-#{$color} {
         color: $value !important;
     }
+    .bg-stripes-#{$color} {
+        background-color: #{mix(rgba(255, 255, 255, 0), desaturate($value, 45%), 93%)} !important;
+        background-image: linear-gradient( 225deg,
+                #{mix(rgba(255, 255, 255, 0), $value, 50%)} 10%,
+                transparent 0,transparent 50%,
+                #{mix(rgba(255, 255, 255, 0), $value, 50%)} 0,
+                #{mix(rgba(255, 255, 255, 0), $value, 50%)} 60%,
+                transparent 0,transparent
+        );
+        background-size: 7.07px 7.07px;
+        z-index: -1;
+    }
 }
 
 /* -- 浅色 -- */

@@ -131,6 +131,20 @@
 
 ![mp-cu](https://colorui-assest.vercel.app/mp-cu-doc/background/background3.png)
 
+
+## 条纹背景
+
+`.bg-stripes-{color}` ，此为扩展class
+
+<div class="ui-grid ui-cols-1 ui-cols-sm-2 ui-cols-md-2 ui-cols-lg-2 ui-cols-xl-4 ui-cols-xxl-8" style="margin: -10px;">
+    <div class="p-3 ui-item" v-for="(item,index) in color" :key="index">
+        <div class="radius p-4 item" :class="'bg-stripes-' + item.name" @click="copyText('bg-stripes-' + item.name)">
+            <div class="text-xl pb-3" :class="'text-' + item.name">{{ item.desc }}</div>
+            <div class="text-sm flex-bar p-2 radius" :class="'bg-' + item.name">.bg-stripes-{{ item.name }}</div>
+        </div>
+    </div>
+</div>
+
 </div>
 
 <div class="mp-cu-toast" :class="isToast?'show':''">

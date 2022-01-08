@@ -48,6 +48,9 @@ ui-sys 的参数如下
 | bg | String | - | ui-BG-1 | 背景颜色 |
 | ui | String | - | - | 其他class |
 | img | String | - | - | 背景图 |
+| theme | string | auto, light, dark | auto | 设置默认主题 |
+| main | string | - | blue | 设置默认强调色 |
+| text | string | 0-4 | 1 | 设置默认字号等级 |
 | title | String | - | - | 引入文字以开启默认导航 |
 | navBg | String | - | bg-blur | 默认导航的背景色 |
 | loading | String/Boolean | - | auto | 是否加载中 |

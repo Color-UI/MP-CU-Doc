@@ -6,6 +6,14 @@
 
 ## Beta v3.3.1
 
+##### 2022-01-08 22:43
+
+- 修复 `ui-sys` 的文档，[文档](/guide/sys.md)
+- 背景 新增 `条纹背景` class，[文档](/guide/background.md)
+- 提示：最近在适配 `colorui-vue`，mp-cu这边更新会比较缓慢，如有问题，可随时反馈，我们会及时优化和修复。 可提交 [issues](https://github.com/Color-UI/MP-CU/issues) ，或群里艾特 `iZaiZaiA` 反馈，
+
+---
+
 ##### 2022-01-04 17:00
 
 - 实验室 新增 `ui-notify` 消息提示组件，[文档](/laboratory/notify.md)
